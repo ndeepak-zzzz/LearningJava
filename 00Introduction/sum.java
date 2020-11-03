@@ -1,4 +1,3 @@
-import java.lang.*;
 import java.util.*;
 class Sum
 {
@@ -11,6 +10,7 @@ public static void main(String argos[])
 	b=s.nextInt();
 	c=a+b;
 	System.out.println("Sum is "+c);
+	s.close();
 }
 }
 

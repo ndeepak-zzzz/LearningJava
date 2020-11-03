@@ -1,4 +1,3 @@
-import java.lang.*;
 import java.util.*;
 
 class Name{
@@ -9,5 +8,6 @@ class Name{
         System.out.println("What is your name? ");
         name = sc.nextLine();
         System.out.println("Hello there, Mr/Miss "+ name);
+        sc.close();
     }
 }
